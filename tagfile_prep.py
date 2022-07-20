@@ -1,4 +1,4 @@
-#! /home/lukedane/miniconda3/bin/python
+#!/usr/bin/env python
 
 import sys
 import argparse
@@ -7,13 +7,7 @@ import string
 import contextlib
 
 '''
-UPDATED 2022-02-03
-
-TO DO
-Strip leading characters from input files for library names (so you can use full filepaths)
-Clarify --notused usage
-Provide useful summary of data loaded in tagfile
-Take functionality from SplitTagTable
+UPDATED 2022-07-20
 '''
 
 # {primer_name : [forward_primer, rev_primer]}
